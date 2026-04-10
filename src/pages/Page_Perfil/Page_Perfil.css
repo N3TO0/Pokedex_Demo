@@ -1,0 +1,9 @@
+.Content_Page_Perfil{
+    width: 100vw;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

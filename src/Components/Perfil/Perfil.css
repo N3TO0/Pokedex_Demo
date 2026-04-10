@@ -1,0 +1,126 @@
+.Content_Perfil {
+  width: 82vw;
+  height: 72vh;
+  background-color: rgba(255, 0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+
+}
+
+.Img_Perfil{
+    width: 30vw;
+    height: 52vh;
+    background-color: white;
+    border-radius: 1.9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 27vw;
+    }
+}
+
+.Tipo_pokemon{
+    width: 30vw;
+    height: 12vh;
+    background-color: #4CB2E5;
+    border-radius: 1.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1vw;
+
+}
+.Conteudo_1{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5vh;
+}
+.Conteudo_2{
+    background-color: #4CB2E5;
+    width: 50vw;
+    height: 68vh;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    h1{
+        font-family: inter;
+        color: #4CB2E5;
+        font-size: 3.2vw;
+        text-align: center;
+        background-color: #ffffff;
+        width: 100%;
+        border-radius: 1vw 1vw 0 0;
+        padding: 1.0vw 0 1.0vw 0;
+    }
+}
+
+.box_sombra{
+    box-shadow: 6px 5px rgba(0, 0, 0, 0.301);
+}
+
+.Esc_pokemon{
+    width: 80%;
+    height: 3.8vw;
+    margin-bottom: 2vw;
+    border-radius: 0.5vw;
+    border: 0;
+    background-color: #ffffff;
+    color: #ff0000e8;
+    font-family: inter;
+    font-size: 1.7vw;
+    font-weight: 700;
+}
+
+.Esc_pokemon:hover{
+    background-color: #ffffffef;
+    border: 0;
+}
+
+.Esc_pokemon:active{
+    background-color: #ff0000ef;
+    color: white;
+    border: 0;
+}
+
+.Fraquezas{
+    color: rgb(255, 255, 255);
+    font-size: 1.1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw ;
+}
+
+.Evolucao{
+    color: white;
+    font-size: 1.1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw ;
+}
+
+.section_div{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+
+    p{
+        background-color: white;
+        color: #4CB2E5;
+        width: 7vw;
+        text-align: center;
+        padding: 0.8vh 0;
+        border-radius: 0.5vw;
+    }
+    
+}
