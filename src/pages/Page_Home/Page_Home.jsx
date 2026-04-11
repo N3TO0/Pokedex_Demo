@@ -9,7 +9,7 @@ import './Page_Home.css'
 const Page_Home = () => {
   return (
     <div className="content_page_home">
-      <Link to="/cadastro" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <Link to="/perfil" style={{ textDecoration: 'none', color: 'inherit' }}>
         <Card foto={Pok.Marill} nome="Maril" />
       </Link>
       <Link to="/cadastro" style={{ textDecoration: 'none', color: 'inherit' }}>

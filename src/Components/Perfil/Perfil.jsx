@@ -1,4 +1,5 @@
 import "./Perfil.css";
+import { Link } from "react-router-dom";
 import * as Pok from "../../assets/Perfil_pokemons";
 import * as Evl from "../../assets/Evolucoes";
 
@@ -33,10 +34,9 @@ const Perfil = () => {
             <img src={Evl.marill_3} alt="" />
           </figure>
         </article>
-        <Link to="/perfil" style={{ textDecoration: 'none', color: 'inherit' }}>
-        <Card foto={Pok.Squirtle} nome="Squirtle" />
-      </Link>
-        
+        <Link to="/cadastro" style={{ textDecoration: "none", color: "inherit" }}>
+          <button className="Esc_pokemon">Escolher Pokemon</button>
+        </Link>
       </article>
     </div>
   );
